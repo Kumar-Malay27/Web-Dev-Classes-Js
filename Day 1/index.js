@@ -33,3 +33,7 @@ console.log(und);
 // bigint
 let bigIntNum = 123456789012345678901234567890n;
 console.log(bigIntNum);
+
+// null
+let n = null;
+console.log(n);

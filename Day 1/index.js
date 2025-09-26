@@ -29,3 +29,5 @@ console.log(isTrue, isFalse);
 // undefined
 let und;
 console.log(und);
+
+// bigint

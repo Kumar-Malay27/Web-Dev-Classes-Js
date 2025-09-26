@@ -37,3 +37,7 @@ console.log(bigIntNum);
 // null
 let n = null;
 console.log(n);
+
+// symbol
+const id1 = Symbol('id');
+console.log(id1);

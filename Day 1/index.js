@@ -45,3 +45,12 @@ console.log(id1);
 // array
 let arr = [1, 2, 3, 4, 5, "Hello", true];
 console.log(arr);
+
+// object
+let user = {
+    name: "John",
+    age: 30,
+    account: 12323,
+    category: "gen",
+};
+

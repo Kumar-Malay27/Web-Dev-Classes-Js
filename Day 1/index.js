@@ -31,3 +31,5 @@ let und;
 console.log(und);
 
 // bigint
+let bigIntNum = BigInt(123456789012345678901234567890);
+console.log(bigIntNum);

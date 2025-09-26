@@ -41,3 +41,7 @@ console.log(n);
 // symbol
 const id1 = Symbol('id');
 console.log(id1);
+
+// array
+let arr = [1, 2, 3, 4, 5, "Hello", true];
+console.log(arr);

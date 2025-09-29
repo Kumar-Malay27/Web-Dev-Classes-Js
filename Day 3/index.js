@@ -19,3 +19,12 @@ x %= y; // x = x % y
 x **= y; // x = x ** y
 console.log(x);
 
+// Comparison Operators
+console.log(x > y);
+console.log(x < y);
+console.log(x >= y);
+console.log(x <= y);
+console.log(x == y);
+console.log(x != y);
+console.log(x === y); // first check TYPE then compare VALUE
+console.log(x !== y); // first check TYPE then compare VALUE

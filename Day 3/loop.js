@@ -21,9 +21,21 @@ do{
 }while(j<10);
 
 // if-else
-let age=18;
-if(age>=18){
-    console.log("You can vote");
-}else{
-    console.log("You cannot vote");
+// let age=18;
+// if(age>=18){
+//     console.log("You can vote");
+// }else{
+//     console.log("You cannot vote");
+// }
+
+// kid young adult
+let age=20;
+if(age<18){
+    console.log("You are a kid");
+}
+else if(age>=60){
+    console.log("You are old");
+}
+else{
+    console.log("You are an adult");
 }

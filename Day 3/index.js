@@ -50,3 +50,6 @@
 // // undefined -> number
 // console.log(Number(undefined)); // NaN
 
+// null is looselfy equal to undefined only
+// console.log(null == undefined); // true
+// console.log(null === undefined); // false

@@ -28,3 +28,16 @@ console.log(x == y);
 console.log(x != y);
 console.log(x === y); // first check TYPE then compare VALUE
 console.log(x !== y); // first check TYPE then compare VALUE
+
+// NaN (Not a Number) -> type of NaN is number
+let a = "121ac";
+let b = Number(a);
+console.log(b);
+console.log(typeof b);
+
+// Number -> String
+let c = 10;
+let d = String(c);
+console.log(d);
+console.log(typeof d);
+

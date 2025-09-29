@@ -50,6 +50,23 @@ console.log(Number(null)); // 0
 // undefined -> number
 console.log(Number(undefined)); // NaN
 
-// null is looselfy equal to undefined only
+// null is loosely equal to undefined only and vice versa
 console.log(null == undefined); // true
 console.log(null === undefined); // false
+console.log(null==0);   // false
+console.log(null=="");  // false
+console.log(null==false);   // false
+console.log(null==true);    // false
+
+// >,<,>=,<= (converting null --> number, undefined --> NaN)
+
+console.log(null>=0); // true
+console.log(null<=0); // true
+console.log(null>0); // false
+console.log(null<0); // false
+console.log(null>=undefined); // false
+console.log(undefined>=0);  // false
+
+// comparing string with string
+console.log("Malay" > "malay") // false (based on ASCII values) compares first different character
+console.log("2">"12"); // true (based on ASCII values) compares first different character

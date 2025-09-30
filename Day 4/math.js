@@ -20,4 +20,8 @@
 // formulae: (Math.floor(Math.random()*totalNumberOfOutcomes)+shift)
 
 // (15-25)
-console.log(Math.floor(Math.random()*11)+15);
+// console.log(Math.floor(Math.random()*11)+15);
+
+// practical use
+// OTP Generate: 4 digit: 1000-9999(not used in practical life because it isn't actually random)
+console.log(Math.floor(Math.random()*9000)+1000);

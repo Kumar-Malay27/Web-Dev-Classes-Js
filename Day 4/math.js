@@ -12,4 +12,12 @@
 // generating random numbers
 
 // for (0-9)/(1-10)
-console.log(Math.floor(Math.random()*10+1))
+// console.log(Math.floor(Math.random()*10)+1);
+
+// for (1-6)
+// console.log(Math.floor(Math.random()*6)+1);
+
+// formulae: (Math.floor(Math.random()*totalNumberOfOutcomes)+shift)
+
+// (15-25)
+console.log(Math.floor(Math.random()*11)+15);

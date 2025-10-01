@@ -33,3 +33,4 @@
 // console.log(c);
 
 const str = `How are you doing are?`;
+console.log(str.replace("are", "world"));

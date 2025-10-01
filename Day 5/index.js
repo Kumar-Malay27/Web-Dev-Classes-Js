@@ -32,5 +32,13 @@
 // const c = a + " " + b;
 // console.log(c);
 
-const str = `How are you doing are?`;
-console.log(str.replace("are", "world"));
+// const str = `How are you doing are?`;
+// console.log(str.replace("are", "world"));
+
+// trim
+// const a = " Kumar Malay ";
+// console.log(a.trim());
+
+// split
+const names = "Ram , Shyam , Gita , Suraj , Shruti";
+console.log(names.split(" , "));

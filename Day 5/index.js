@@ -27,7 +27,9 @@
 // const str = `How are you doing are?`;
 // console.log(str.substring(2,5));
 
-const a = "Kumar";
-const b = "Malay";
-const c = a + " " + b;
-console.log(c);
+// const a = "Kumar";
+// const b = "Malay";
+// const c = a + " " + b;
+// console.log(c);
+
+const str = `How are you doing are?`;

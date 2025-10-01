@@ -6,7 +6,10 @@
 // console.log(str1, str2, str3);
 
 const str = `How are you doing?`;
-console.log(str.length);
+// console.log(str.length);
 
-str[2] = "s";
-console.log(str); //doesn't change anything because string are immutable.
+// str[2] = "s";
+// console.log(str); //doesn't change anything because string are immutable.
+
+// Uppercase
+console.log(str.toUpperCase())

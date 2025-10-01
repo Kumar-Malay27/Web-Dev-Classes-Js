@@ -15,6 +15,7 @@
 const str = `How are you doing are?`;
 // console.log(str.toUpperCase());
 // console.log(str.toLowerCase());
-console.log(str.indexOf('are'));
-console.log(str.lastIndexOf('are'));
-console.log(str.includes('are'));
+// console.log(str.indexOf('are'));
+// console.log(str.lastIndexOf('are'));
+// console.log(str.includes('are'));
+

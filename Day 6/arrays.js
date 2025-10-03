@@ -31,3 +31,15 @@
 // arr.shift();
 // console.log(arr);
 
+// let arr = [10,20,50,90,11];
+
+// for(i = 0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// for(let num of arr){
+//     console.log(num);
+// }
+
+let arr = [10,20,50,90,11];
+let arr2 = arr;

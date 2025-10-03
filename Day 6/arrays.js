@@ -17,3 +17,5 @@ arr.push("Hello");
 console.log(arr);
 
 // Pop: It deletes element from end.
+arr.pop();
+console.log(arr);

@@ -43,3 +43,6 @@
 
 let arr = [10,20,50,90,11];
 let arr2 = arr;
+
+arr2.push(30);
+console.log(arr);

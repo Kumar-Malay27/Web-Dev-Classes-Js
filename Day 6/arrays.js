@@ -41,8 +41,15 @@
 //     console.log(num);
 // }
 
-let arr = [10,20,50,90,11];
-let arr2 = arr;
+// let arr = [10,20,50,90,11];
+// let arr2 = arr;
 
-arr2.push(30);
+// arr2.push(30);
+// console.log(arr);
+
+const arr = [10,30,50,90,11];
+const arr2 = arr.slice(2,4);
+console.log(arr);
+
+const arr3 = arr.splice(1,3);
 console.log(arr);

@@ -19,3 +19,14 @@ console.log(arr);
 // Pop: It deletes element from end.
 arr.pop();
 console.log(arr);
+
+// Add elements at first -> unshift()
+
+arr.unshift(15);
+arr.unshift(30);
+console.log(arr);
+
+// Delete elements at first -> shift()
+
+arr.shift();
+console.log(arr);

@@ -10,8 +10,10 @@ let arr = [100,30,"Rohit",true];
 // arr[1] = 90;
 // console.log(arr);
 
-// Push
+// Push: It inserts elements at end.
 arr.push(90);
 arr.push("Hello");
 
 console.log(arr);
+
+// Pop: It deletes element from end.

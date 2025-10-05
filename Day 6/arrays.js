@@ -54,14 +54,24 @@
 // const arr3 = arr.splice(1,3,"Rohit",19);
 // console.log(arr);
 
-const arr = [10,30,50,90,11];
-const arr2 = ["Rohit",11,true];
-const arr4 = [90,4,false];
+// const arr = [10,30,50,90,11];
+// const arr2 = ["Rohit",11,true];
+// const arr4 = [90,4,false];
 // arr.push(arr2);
 // const arr3 = arr.concat(arr2, arr4);
 // const arr3 = [arr,arr2,arr4];
 
 // Spread operator
 
-const arr3 = [...arr,...arr2,...arr4];
-console.log(arr3);
+// const arr3 = [...arr,...arr2,...arr4];
+// console.log(arr3);
+
+const names = ["Alice", "Bob", "Charlie"];
+
+// console.log(names.toString());
+// console.log(names.toString());
+// console.log(names.join(" "));
+// names.sort();
+// names.reverse();
+
+console.log(names);

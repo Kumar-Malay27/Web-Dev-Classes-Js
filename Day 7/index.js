@@ -25,12 +25,12 @@
 // delete user.emailId;
 // console.log(user); 
 
-const user = {
-    name: "Malay",
-    age: 20,
-    emailId: "malay290@gmail.com",
-    amount: 65000
-}
+// const user = {
+//     name: "Malay",
+//     age: 20,
+//     emailId: "malay290@gmail.com",
+//     amount: 65000
+// }
 
 // const user2 = user;
 // user2.age = 90;
@@ -41,6 +41,17 @@ const user = {
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
 
-for(let keys in user){
-    console.log(keys, user[keys]);
+// for(let keys in user){
+//     console.log(keys, user[keys]);
+// }
+
+const user = {
+    name: "Malay",
+    age: 20,
+    emailId: "malay290@gmail.com",
+    amount: 65000
 }
+
+const name = user.name;
+const age = user.age;
+

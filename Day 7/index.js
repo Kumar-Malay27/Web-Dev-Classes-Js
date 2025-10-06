@@ -41,6 +41,7 @@
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
 
+// for in loop
 // for(let keys in user){
 //     console.log(keys, user[keys]);
 // }
@@ -52,6 +53,14 @@ const user = {
     amount: 65000
 }
 
-const name = user.name;
-const age = user.age;
+// for of loop
+// const temparr = Object.keys(user);
+// console.log(temparr);
+// for(let keys of temparr){
+//     console.log(keys);
+// }
 
+console.log(Object.values(user));
+// for(let values of Object.values(user)){
+//     console.log(values);
+// }

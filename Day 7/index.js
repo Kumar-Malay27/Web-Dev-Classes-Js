@@ -5,15 +5,22 @@ const user = {
     name: "Malay",
     age: 20,
     emailId: "malay290@gmail.com",
-    amount: 65000
+    amount: 65000,
+    "home address": "bokaro"
 }
-// Read
-console.log(user); 
-console.log(user.emailId);
-// Update
-user.aadhar = 1234;
-user.amount = 50000;
-console.log(user);
-// Delete
-delete user.emailId;
-console.log(user); 
+
+console.log(user("name")); 
+console.log(user.age); 
+console.log(user("age")); 
+console.log(user("home address")); 
+
+// // Read
+// console.log(user); 
+// console.log(user.emailId);
+// // Update
+// user.aadhar = 1234;
+// user.amount = 50000;
+// console.log(user);
+// // Delete
+// delete user.emailId;
+// console.log(user); 

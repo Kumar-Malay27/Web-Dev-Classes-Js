@@ -71,7 +71,7 @@ const user = {
     emailId: "malay290@gmail.com",
     amount: 65000,
     greeting: function(){
-        console.log("Hello world");
+        console.log(`Hello world ${user.name}`);
         return 20;
     }
 }

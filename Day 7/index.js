@@ -1,18 +1,18 @@
 // Object
 // CRUD Operation: Create Read Update delete
 // Create
-const user = {
-    name: "Malay",
-    age: 20,
-    emailId: "malay290@gmail.com",
-    amount: 65000,
-    "home address": "bokaro"
-}
+// const user = {
+//     name: "Malay",
+//     age: 20,
+//     emailId: "malay290@gmail.com",
+//     amount: 65000,
+//     "home address": "bokaro"
+// }
 
-console.log(user("name")); 
-console.log(user.age); 
-console.log(user("age")); 
-console.log(user("home address")); 
+// console.log(user("name")); 
+// console.log(user.age); 
+// console.log(user("age")); 
+// console.log(user("home address")); 
 
 // // Read
 // console.log(user); 

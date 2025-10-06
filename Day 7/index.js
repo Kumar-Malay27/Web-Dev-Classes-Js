@@ -24,3 +24,15 @@
 // // Delete
 // delete user.emailId;
 // console.log(user); 
+
+const user = {
+    name: "Malay",
+    age: 20,
+    emailId: "malay290@gmail.com",
+    amount: 65000
+}
+
+const user2 = user;
+user2.age = 90;
+
+console.log(user);

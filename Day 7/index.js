@@ -37,5 +37,10 @@ const user = {
 
 // console.log(user);
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+
+for(let keys in user){
+    console.log(keys, user("keys"));
+}

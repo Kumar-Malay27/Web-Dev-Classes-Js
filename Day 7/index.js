@@ -32,7 +32,10 @@ const user = {
     amount: 65000
 }
 
-const user2 = user;
-user2.age = 90;
+// const user2 = user;
+// user2.age = 90;
 
-console.log(user);
+// console.log(user);
+
+console.log(Object.keys(user));
+console.log(Object.values(user));

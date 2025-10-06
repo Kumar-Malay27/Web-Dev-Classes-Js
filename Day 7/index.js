@@ -46,21 +46,35 @@
 //     console.log(keys, user[keys]);
 // }
 
+// const user = {
+//     name: "Malay",
+//     age: 20,
+//     emailId: "malay290@gmail.com",
+//     amount: 65000
+// }
+
+// // for of loop
+// // const temparr = Object.keys(user);
+// // console.log(temparr);
+// // for(let keys of temparr){
+// //     console.log(keys);
+// // }
+
+// console.log(Object.entries(user));
+// for(let [keys, values] of Object.entries(user)){
+//     console.log(keys, values);
+// }
+
 const user = {
     name: "Malay",
     age: 20,
     emailId: "malay290@gmail.com",
-    amount: 65000
+    amount: 65000,
+    greeting: function(){
+        console.log("Hello world");
+        return 20;
+    }
 }
 
-// for of loop
-// const temparr = Object.keys(user);
-// console.log(temparr);
-// for(let keys of temparr){
-//     console.log(keys);
-// }
-
-console.log(Object.values(user));
-// for(let values of Object.values(user)){
-//     console.log(values);
-// }
+const va = user.greeting();
+console.log(va);

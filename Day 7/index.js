@@ -13,3 +13,7 @@ console.log(user.emailId);
 // Update
 user.aadhar = 1234;
 user.amount = 50000;
+console.log(user);
+// Delete
+delete user.emailId;
+console.log(user); 

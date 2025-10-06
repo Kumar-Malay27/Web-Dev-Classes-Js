@@ -42,5 +42,5 @@ const user = {
 // console.log(Object.entries(user));
 
 for(let keys in user){
-    console.log(keys, user.keys);
+    console.log(keys, user[keys]);
 }

@@ -23,37 +23,40 @@
 
 // console.log(c);
 
-// number
+// PRIMITIVE DATA TYPES
+
+// 1. number
 // let num1 = 10;
 // let num2 = 20.5;
 // console.log(num1, num2);
 
-// string
+// 2. string
 // let c="Hello";
 // let d='Hello World';
 // console.log(c, d);
 
-// boolean
+// 3. boolean
 // let isTrue = true;
 // let isFalse = false;
 // console.log(isTrue, isFalse);
 
-// undefined
+// 4. undefined
 // let und;
 // console.log(und);
 
-// bigint
+// 5. bigint
 // let bigIntNum = 123456789012345678901234567890n;
 // console.log(bigIntNum);
 
-// null
+// 6. null
 // let n = null;
 // console.log(n);
 
-// symbol
+// 7. symbol
 // const id1 = Symbol('id');
 // console.log(id1);
 
+// NON-PRIMITIVE DATA TYPES
 // array
 // let arr = [1, 2, 3, 4, 5, "Hello", true];
 // console.log(arr);

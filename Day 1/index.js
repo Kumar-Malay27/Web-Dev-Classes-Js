@@ -68,3 +68,13 @@
     // account: 12323,
     // category: "gen",
 // };
+
+// funtion
+
+let s = function add(){
+    console.log("hello world");
+}
+
+// console.log(s());
+s();
+console.log(typeof s);

@@ -10,5 +10,5 @@ function addNumbers(n1, n2) {
 }
 
 greeting();
-addNumbers(5, 10);
-addNumbers(54, 10);
+// addNumbers(5, 10);
+// addNumbers(54, 10);

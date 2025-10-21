@@ -37,3 +37,16 @@
 
 // const ans = [arr,arr2];
 // console.log(ans);
+
+// function expression
+
+// const addNumbers = function (num1, num2) {
+//     return num1 + num2;
+// }
+
+// console.log(addNumbers(5, 10));
+
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+

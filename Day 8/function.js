@@ -14,17 +14,26 @@
 
 // rest operator
 
-function addNumbers(...num) {
-    // console.log(num);
+// function addNumbers(...num) {
+//     // console.log(num);
 
-    let sum = 0;
-    for (let n of num) {
-        sum += n;
-    }
-    console.log(sum);
-}
+//     let sum = 0;
+//     for (let n of num) {
+//         sum += n;
+//     }
+//     console.log(sum);
+// }
 
-addNumbers(6, 7);
-addNumbers(6, 7, 8);
-addNumbers(6, 7, 8, 9);
-addNumbers(7, 8, 12, 12, 11, 12, 41, 12);
+// addNumbers(6, 7);
+// addNumbers(6, 7, 8);
+// addNumbers(6, 7, 8, 9);
+// addNumbers(7, 8, 12, 12, 11, 12, 41, 12);
+
+// const arr = [5, 10, 15, 20, 25];
+// const arr2 = [30, 35, 40];
+
+// const [first, second, ...num] = arr;
+// console.log(first, second, num);
+
+// const ans = [arr,arr2];
+// console.log(ans);

@@ -8,7 +8,10 @@ const b = 20;
 // block scope
 if (true) {
     console.log(b);
+    var c = 30;
 }
+
+console.log(c); // var is function scoped, not block scoped
 
 // function scope
 function greet() {

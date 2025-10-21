@@ -15,6 +15,8 @@
 // rest operator
 
 function addNumbers(...num) {
+    // console.log(num);
+
     let sum = 0;
     for (let n of num) {
         sum += n;

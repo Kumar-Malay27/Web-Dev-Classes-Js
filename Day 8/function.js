@@ -50,3 +50,13 @@
 //     return num1 + num2;
 // }
 
+// arrow function
+
+// const addNumbers = (num1, num2) => num1 + num2;
+
+// If we have only one parameter, no need to use ()
+// const squareNumber = n => n * n;
+
+// console.log(squareNumber(5));
+// console.log(addNumbers(5, 10));
+

@@ -60,3 +60,15 @@
 // console.log(squareNumber(5));
 // console.log(addNumbers(5, 10));
 
+// const greet = () => ({name: "John", age: 30});
+// console.log(greet());
+
+// Immediately Invoked Function Expression (IIFE)
+// (function greet(){
+//     console.log("Hello World!");
+// })();
+
+// (()=>{
+//     console.log("Hello from IIFE Arrow Function");
+// })();
+

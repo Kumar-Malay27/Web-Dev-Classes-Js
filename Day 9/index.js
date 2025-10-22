@@ -35,13 +35,19 @@
 
 // greet();
 
-function createCounter() {
-    function increment() {
-        console.log("Incremented");
-    }
-    return increment();
-}
+// function createCounter() {
+//     let count = 0;
+//     function increment() {
+        // console.log("Incremented");
+//         count++;
+//         return count;
+//     }
+//     return increment;
+// }
 
-// createCounter();
-const count = createCounter();
-count();
+// const counter = createCounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+// console.log(count);

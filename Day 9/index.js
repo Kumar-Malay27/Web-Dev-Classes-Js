@@ -1,29 +1,22 @@
-// Execution Context
-// Memory Allocation Phase
-// Execution Phase
+// scope and closure , HOF
+// scope : block scope, function scope, global scope
 
-// console.log(a);
-// var a = 10;
-// var b = 20;
+// global scope
+// let a = 10;
+// const b = 20;
 
-// function addNumber(num1, num2) {
-//     var sum = num1 + num2;
-//     return sum;
+// block scope
+// if (true) {
+//     console.log(b);
+//     var c = 30;
 // }
 
-// var sumResult1 = addNumber(a, b);
-// var sumResult2 = addNumber(4, 5);
-// console.log(sumResult1, sumResult2);
+// console.log(c); // var is function scoped and global scoped, not block scoped
 
-// let const
+// function scope
+// function greet() {
+//     console.log(a);
+// }
 
-let a = 10;
-const b = 20;
+// greet();
 
-const addNumber = function(num1, num2) {
-    const sum = num1 + num2;
-    return sum;
-}
-
-const result = addNumber(a, b);
-console.log(result);

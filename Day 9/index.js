@@ -20,3 +20,28 @@
 
 // greet();
 
+// let global = 30;
+
+// function greet(){
+//     let global = 40;
+    
+//     function meet(){
+//         let global = 50;
+//         console.log(global);
+//     }
+
+//     meet();
+// }
+
+// greet();
+
+function createCounter() {
+    function increment() {
+        console.log("Incremented");
+    }
+    return increment();
+}
+
+// createCounter();
+const count = createCounter();
+count();
